@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+
+<body>
+   
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Quiz Rules</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have 5 minutes.</div>
+            <div class="info">2. If you answer incorectly, then time is subtracted from the clock.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get 2 points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>   
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Practice mulitiple choice quiz</div>
+            <div class="timer">
+                    <div class="time_text">Time Left</div>
+                    <div class="timer_minutes">5:00</div> 
+            </div>
+        </header>
+        <section>
+                <div class="que_text">
+                    <span>What does HTML stand for?</span>
+                </div>
+                <div class="option_list">
+                    <div class="option">
+                        <span>Hyper Text Prossesor</span>
+                        <div class="icon tick"><i class="fas fa-check"></i></div>
+                    <div class="option">
+                        <span>Hyper Text Prossesor</span>
+                        <div class="icon tick"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Prossesor</span>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Prossesor</span>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+                <span><p>1</p>of<p>10</p>Questions</span>
+            </div>
+            <button class="next_btn">Continue</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Quiz complete!</div>
+        <div class="score_text">
+            <span>You answered <p> 1 </p> out of <p> 10 </p> correctly.</span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Restart Quiz</button>
+            <button class="quit">Quit quiz</button>
+        </div>
+    </div>
+    
+    <script src="quiz.js"></script>
+    <script src="questions.js"></script>
+
+</body>
+</html>
